@@ -1,0 +1,155 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    overflow-y: scroll;
+}
+
+
+.brand-logo {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 10em;
+    z-index: 999;
+}
+
+.welcome span {
+    font-weight: 300;
+}
+
+.welcome p {
+    padding-top: 1em;
+}
+
+.social-media {
+    position: absolute;
+    left: 2%;
+    bottom: 3%;
+    z-index: 999;
+}
+
+.social-media a {
+    margin-right: 1em;
+    color: rgba(220,220,220, 0.8);
+}
+
+.social-media a :hover {
+    margin-right: 0.5em;
+    color: #c1272d;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+.div-img {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-8.gif);
+    background-size: cover;
+    min-height: 25em;
+}
+
+#section-1 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-1.gif);
+    background-size: cover;
+}
+
+.section {
+    padding-top: 0 !important;
+}
+
+#slide-1 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-3.gif);
+    background-size: cover;
+}
+
+#slide-2 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-4.gif);
+    background-size: cover;
+}
+
+#slide-3 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-5.gif);
+    background-size: cover;
+}
+
+#slide-4 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-6.gif);
+    background-size: cover;
+}
+
+#slide-5 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-2.gif);
+    background-size: cover;
+}
+
+#slide-6 {
+    background-image: url(https://s3.eu-west-2.amazonaws.com/brandon-few-photography/thumbnails/bfp-bg-7.gif);
+    background-size: cover;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    z-index: 999;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    border-radius: 50%;
+    background: rgba(255,255,255, 0.5);
+    color: #c1272d;
+    border: none;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-cell {
+    width: 50%; /* half-width */
+    height: 25em;
+    margin-right: 10px;
+}
+
+.static-banner {
+    position: absolute;
+    background: hsla(0, 0%, 0%, 0.3);
+    z-index: 1;
+    padding: 2px 20px;
+    font-size: 26px;
+    color: white;
+    pointer-events: none;
+    top: 30px;
+}
+
+.hire-1 {
+    background: rgba(255,255,255, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.hire-2 {
+    background: rgba(193,39,45,0.5);
+    padding: 2em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.hire-top {
+    margin-top: 2em;
+}
+
+.booking-logo {
+    width: 4em;
+    margin-right: 1em;
+}
